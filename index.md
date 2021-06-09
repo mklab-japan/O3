@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Open online psychological experiments and open dataとは
+オンライン心理学実験をどなたでも実施できるようにするプロジェクトです。オンライン心理学実験で取得されたデータをオープンデータとして公開することまでを目標としています。略称はO2EDです。なお，現在はα版に付き，利用は制限しています。
 
-You can use the [editor on GitHub](https://github.com/mklab-japan/o2ed/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 利用方法
+実施可能なオンライン心理学実験プログラムは，実施可能な心理学実験リストに掲載されています。参加したい実験をクリックしていただけると，その実験の実施に必要な環境や所要時間が表示されます。多くの実験はスマートフォンやタブレットには対応していないため，コンピュータで実施してください。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 利用上の注意
+実験参加に伴う費用負担はまったくありません。
+ただし，利用の際にはGoogleアカウントまたはG suiteでのログインが必要です。
+GoogleアカウントまたはG suiteでのログインによって個人ごとに共通したIDを付与し，実験間のデータ結合に利用させて頂きます。
 
-### Markdown
+### 実験データの取り扱い
+各オンライン実験では，実施後にあなたのデータをダウンロードすることができます。オンライン実験によって出力形式は異なります。
+また，実施後にあなたのデータを匿名化した上で公開データとして登録してよいかをお聞きします。この登録は任意です。
+登録を希望されない場合はサーバーにあなたのデータは保存されません。ご自身のデータをダウンロードし忘れないようにしてください。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### お願い
+当プロジェクトはオンライン心理学実験のオープン化だけでなく，心理学実験データのオープン化（公開データ化）も目的としています。ご参加いただける方は公開データへの登録にご協力いただければ幸いです。
 
-```markdown
-Syntax highlighted code block
+### 匿名化
+実験にご参加いただいた方は個別のIDを付与し，IDを用いて個人を追跡した形でデータを管理させていただきます。
+IDはランダムな英数字の配列が個人ごとに付与されるため，データから個人を特定することはできません。
+ただし，将来的な参加の同意の撤回などのためにデータベースに参加された方のメールアドレスとIDと紐付けて保存させていただきます（連結可能匿名化）。
+この連結情報は管理者のみが閲覧可能であり，公開データには含まれません。よって，公開データのみから個人を特定することはできません。
 
-# Header 1
-## Header 2
-### Header 3
+### 個人でのご利用について
+個人での非商用の利用は可能です。
 
-- Bulleted
-- List
+### 教育機関でのご利用について
+教育機関（大学，高等学校など）のご利用は可能です。授業の一環として学生さんや生徒さんに当プロジェクトのオンライン実験に参加して頂いてもけっこうです。ただし，同時に大人数がアクセスするとオンライン実験のサーバーに障害が発生する可能性があるため，できるだけ分散して実施していただければ幸いです。例えば，授業内で全員が同時にアクセスするのではなく，授業までにアクセスして実験を実施しておいてもらう方が安全かと思われます。
 
-1. Numbered
-2. List
+### 企業でのご利用について
+商用の利用については一切禁止します。掲載されているオンライン実験を利用されたい場合は別途ご相談ください。
 
-**Bold** and _Italic_ and `Code` text
+### 免責事項
+当プロジェクトで提供しているオンライン実験の利用について，以下の点は責任を負いかねます。
 
-[Link](url) and ![Image](src)
-```
+ * サーバー障害などで一時的にアクセス不能となった場合
+ * プログラムのバグなので正常にデータが保存できなった場合
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 実施可能なオンライン実験一覧
 
-### Jekyll Themes
+ * 系列位置効果
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mklab-japan/o2ed/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 問い合わせ
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+当プロジェクトに関する問い合わせはmk[at]human.kj.yamagata-u.ac.jpまでご連絡ください（[at]は@に変更してください)。
