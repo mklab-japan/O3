@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Experiment</title>
+  <!-- viewport setup -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- lab.js library and experiment code -->
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css">
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <!-- 日本語のUIを読み込む -->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth__ja.js"></script>
+    <script src="static/wanakana.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-error-bars@3.1.0/build/index.umd.min.js"></script>
+    <!-- load introJS and introJS css-->
+    <script src="https://cdn.jsdelivr.net/npm/intro.js@3.2.1/intro.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@3.2.1/introjs.min.css">
+  <!-- lab.js library code -->
+  <script src="lib/lab.js" data-labjs-script="library"></script>
+  <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>
+  <link rel="stylesheet" href="lib/lab.css">
+  <!-- study code and styles -->
+  <script src="script.js" defer="true"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- If you'd rather have a container with a fixed width
+       and variable height, try removing the fullscreen class below -->
+  <div class="container fullscreen" data-labjs-section="main">
+    <main class="content-vertical-center content-horizontal-center">
+      <div>
+        <h2>Loading Experiment</h2>
+        <p>The experiment is loading and should start in a few seconds</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
